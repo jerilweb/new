@@ -5,11 +5,4 @@ layout: default
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 
-<ul>
-  {% for blog in site.posts %}
-  <li>
-	  <a href="">{{blog.title}}</a>
-	  <p>{{blog.meta}}</p>
-  </li>
-  {% endfor %} 
-</ul>
+{% include nav.html %}
